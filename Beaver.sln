@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Service", "Beaver.Service\Beaver.Service.csproj", "{47EE82E1-47F6-409B-9CF2-1E0B78AA9739}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Test", "Beaver.Test\Beaver.Test.csproj", "{843AD83F-D547-44FD-BAF6-8935F23E5A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Web", "Beaver.Web\Beaver.Web.csproj", "{FAC232FE-6E39-407B-A12D-343A9E4459B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47EE82E1-47F6-409B-9CF2-1E0B78AA9739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EE82E1-47F6-409B-9CF2-1E0B78AA9739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EE82E1-47F6-409B-9CF2-1E0B78AA9739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EE82E1-47F6-409B-9CF2-1E0B78AA9739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

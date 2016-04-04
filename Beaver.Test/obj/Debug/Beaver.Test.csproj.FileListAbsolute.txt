@@ -1,0 +1,14 @@
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Beaver.Test.dll.config
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Beaver.Test.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Beaver.Test.pdb
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\EntityFramework.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\EntityFramework.SqlServer.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\EntityFramework.xml
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\EntityFramework.SqlServer.xml
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+E:\GitHub\Beaver\Beaver\Beaver.Test\obj\Debug\Beaver.Test.csprojResolveAssemblyReference.cache
+E:\GitHub\Beaver\Beaver\Beaver.Test\obj\Debug\Beaver.Test.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\obj\Debug\Beaver.Test.pdb
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Beaver.Service.dll
+E:\GitHub\Beaver\Beaver\Beaver.Test\bin\Debug\Beaver.Service.pdb
