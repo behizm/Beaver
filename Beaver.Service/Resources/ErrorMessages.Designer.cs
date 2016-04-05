@@ -97,6 +97,15 @@ namespace Beaver.Service.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to اطلاعات قابل ذخیره سازی نیست..
+        /// </summary>
+        public static string Services_General_InvalidData {
+            get {
+                return ResourceManager.GetString("Services_General_InvalidData", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to موردی یافت نشد..
         /// </summary>
         public static string Services_General_ItemNotFound {

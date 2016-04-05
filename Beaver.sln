@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Service", "Beaver.Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Test", "Beaver.Test\Beaver.Test.csproj", "{843AD83F-D547-44FD-BAF6-8935F23E5A80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Web", "Beaver.Web\Beaver.Web.csproj", "{FAC232FE-6E39-407B-A12D-343A9E4459B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beaver.Web", "Beaver.Web\Beaver.Web.csproj", "{49E1E837-564B-4464-96CF-3BFC3CDADC41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{843AD83F-D547-44FD-BAF6-8935F23E5A80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FAC232FE-6E39-407B-A12D-343A9E4459B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E1E837-564B-4464-96CF-3BFC3CDADC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E1E837-564B-4464-96CF-3BFC3CDADC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E1E837-564B-4464-96CF-3BFC3CDADC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E1E837-564B-4464-96CF-3BFC3CDADC41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

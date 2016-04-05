@@ -59,6 +59,14 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
@@ -101,10 +109,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\BeaverContextInitializer.cs" />
+    <Compile Include="Data\Entities\Accounting.cs" />
+    <Compile Include="Data\Entities\Apartment.cs" />
+    <Compile Include="Data\Entities\ApartmentInf.cs" />
+    <Compile Include="Data\Entities\ApplicationUser.cs" />
     <Compile Include="Data\Entities\BaseEntity.cs" />
     <Compile Include="Data\BeaverContext.cs" />
-    <Compile Include="Data\Entities\User.cs" />
+    <Compile Include="Data\Entities\Config.cs" />
+    <Compile Include="Data\Entities\ContactUs.cs" />
+    <Compile Include="Data\Entities\Cost.cs" />
+    <Compile Include="Data\Entities\Notice.cs" />
+    <Compile Include="Data\Entities\Connection.cs" />
+    <Compile Include="Data\Entities\Unit.cs" />
+    <Compile Include="HubServices.cs" />
+    <Compile Include="Interfaces\IAccountingService.cs" />
+    <Compile Include="Interfaces\IApartmentService.cs" />
     <Compile Include="Interfaces\IBaseService.cs" />
+    <Compile Include="Interfaces\IConfigService.cs" />
+    <Compile Include="Interfaces\IConnectionService.cs" />
+    <Compile Include="Interfaces\IContactUsService.cs" />
+    <Compile Include="Interfaces\ICostService.cs" />
+    <Compile Include="Interfaces\INoticeService.cs" />
+    <Compile Include="Interfaces\IUnitService.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ResultModels\OperationResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -115,7 +141,15 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ErrorMessages.resx</DependentUpon>
     </Compile>
+    <Compile Include="Services\AccountingService.cs" />
+    <Compile Include="Services\ApartmentService.cs" />
     <Compile Include="Services\BaseService.cs" />
+    <Compile Include="Services\ConfigService.cs" />
+    <Compile Include="Services\ConnectionService.cs" />
+    <Compile Include="Services\ContactUsService.cs" />
+    <Compile Include="Services\CostService.cs" />
+    <Compile Include="Services\NoticeService.cs" />
+    <Compile Include="Services\UnitService.cs" />
     <Compile Include="Utilities\Async\AsyncTools.cs" />
     <Compile Include="Utilities\Cryptography\Hashing.cs" />
     <Compile Include="Utilities\Cryptography\Rsa.cs" />

@@ -189,4 +189,7 @@
   <data name="Validation_User_ComparePass" xml:space="preserve">
     <value>پسورد با تکرار آن منطبق نیست.</value>
   </data>
+  <data name="Services_General_InvalidData" xml:space="preserve">
+    <value>اطلاعات قابل ذخیره سازی نیست.</value>
+  </data>
 </root>
