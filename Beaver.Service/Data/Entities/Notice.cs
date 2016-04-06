@@ -15,6 +15,8 @@ namespace Beaver.Service.Data.Entities
 
         public string Body { get; set; }
 
+        public DateTime? ExpirationDate { get; set; }
+
 
         [ForeignKey("Apartment")]
         public Guid? ApartmentId { get; set; }
