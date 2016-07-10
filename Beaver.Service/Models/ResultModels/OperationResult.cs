@@ -8,31 +8,31 @@ namespace Beaver.Service.Models.ResultModels
     {
         protected OperationResult(params string[] errors)
         {
-            Succeeded = false;
+            IsSucceeded = false;
             Errors = errors;
         }
 
         protected OperationResult(IEnumerable<string> errors)
         {
-            Succeeded = false;
+            IsSucceeded = false;
             Errors = errors.ToArray();
         }
 
         protected OperationResult(IEnumerable<string> errors, Exception exception)
         {
-            Succeeded = false;
+            IsSucceeded = false;
             Errors = errors.ToArray();
             Exception = exception;
         }
 
-        protected OperationResult(bool succeeded)
+        protected OperationResult(bool isSucceeded)
         {
-            Succeeded = succeeded;
+            IsSucceeded = isSucceeded;
             Errors = new string[] { };
         }
 
 
-        public bool Succeeded { get; }
+        public bool IsSucceeded { get; }
         public string[] Errors { get; }
         public Exception Exception { get; }
         public string LastError => Errors.FirstOrDefault();
@@ -42,7 +42,10 @@ namespace Beaver.Service.Models.ResultModels
         public static OperationResult Failed(params string[] errors) => new OperationResult(errors);
         public static OperationResult Failed(Exception exception, params string[] errors) => new OperationResult(errors, exception);
 
-        //public OperationResult Clone() => Succeeded ? new OperationResult(true) : new OperationResult(Errors);
+        public static implicit operator bool(OperationResult o)
+        {
+            return o != null && o.IsSucceeded;
+        }
     }
 
     public class OperationResult<T>
@@ -80,7 +83,7 @@ namespace Beaver.Service.Models.ResultModels
 
         public static implicit operator OperationResult<T>(OperationResult value)
         {
-            return value.Succeeded ? new OperationResult<T>(true) : new OperationResult<T>(value.Errors);
+            return value.IsSucceeded ? new OperationResult<T>(true) : new OperationResult<T>(value.Errors);
         }
     }
 }

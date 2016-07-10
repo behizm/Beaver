@@ -153,6 +153,14 @@ namespace Beaver.Web.Controllers
             if (ModelState.IsValid)
             {
                 var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
+                UserManager.PasswordValidator = new PasswordValidator
+                {
+                    RequireDigit = false,
+                    RequireLowercase = false,
+                    RequireNonLetterOrDigit = false,
+                    RequireUppercase = false,
+                    RequiredLength = 6
+                };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

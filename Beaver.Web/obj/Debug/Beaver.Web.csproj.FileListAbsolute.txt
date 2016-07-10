@@ -69,3 +69,17 @@ E:\GitHub\Beaver\Beaver\Beaver.Web\obj\Debug\Beaver.Web.dll
 E:\GitHub\Beaver\Beaver\Beaver.Web\obj\Debug\Beaver.Web.pdb
 E:\GitHub\Beaver\Beaver\Beaver.Web\bin\Beaver.Service.dll
 E:\GitHub\Beaver\Beaver\Beaver.Web\bin\Beaver.Service.pdb
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\csc.exe.config
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\csc.rsp
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\csi.exe
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\csi.rsp
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\System.AppContext.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\System.IO.FileSystem.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\vbc.exe.config
+E:\GitHub\Beaver\Beaver\Beaver.Web\bin\roslyn\vbc.rsp
